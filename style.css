@@ -90,9 +90,9 @@ body {
     border-radius: 10px;
   }
 
-  // <uniquifier>: Use a unique and descriptive class name
 
-.kablammo- <uniquifier> {
+
+.kablammo{
   font-family: "Kablammo", serif;
   font-optical-sizing: auto;
   font-weight: 400;
