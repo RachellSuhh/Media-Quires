@@ -2,11 +2,12 @@ body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
     color: red;
-    background-color: #ffffff;
+    background-color: blanchedalmond;
   }
   
   header {
     font-family: "Kablammo", serif;
+    font-size: 50px;
     color:red;
     padding: 20px 10px;
     text-align: center;
@@ -19,14 +20,13 @@ body {
   .mobile-message {
     display: none; 
   }
-  .tablet-message {
-    display: none; 
 
-  }
 
   
   nav {
-
+    font-family: "Atma", serif;
+    font-weight: 400;
+    font-style: normal;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
@@ -45,7 +45,10 @@ body {
   }
   
   nav a:hover {
-    border: 1px solid red;
+    border: 3px solid red;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
   }
   
   .container {
@@ -57,11 +60,14 @@ body {
   }
   
   .text-content {
+    font-family: "Atma", serif;
+    font-weight: 400;
+    font-style: normal;
     flex: 1;
     margin: 10px;
     padding: 20px;
-    background: #fffbfb;
-    border: 1px solid  red ;;
+    background: blanchedalmond;
+    border: 1px solid  red ;
   }
   
   .text-content h2 {
@@ -100,3 +106,33 @@ body {
   font-variation-settings:
     "MORF" 0;
 }
+ .atma-light {
+        font-family: "Atma", serif;
+        font-weight: 300;
+        font-style: normal;
+      }
+      
+      .atma-regular {
+        font-family: "Atma", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      .atma-medium {
+        font-family: "Atma", serif;
+        font-weight: 500;
+        font-style: normal;
+      }
+      
+      .atma-semibold {
+        font-family: "Atma", serif;
+        font-weight: 600;
+        font-style: normal;
+      }
+      
+      .atma-bold {
+        font-family: "Atma", serif;
+        font-weight: 700;
+        font-style: normal;
+ }
+      
