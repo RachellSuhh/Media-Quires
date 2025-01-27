@@ -136,3 +136,51 @@ body {
         font-style: normal;
  }
       
+ @media (max-width: 768px) {
+    body {
+      background-color: white;
+    }
+  
+    nav {
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: space-around;
+      margin-left: 20px;
+    }
+  
+    .text-content {
+      background-color: white;
+    }
+  
+    .container {
+      flex-direction: column; 
+      align-items: center;
+    }
+  
+    .image-content {
+      margin: 0 auto; 
+    }
+  
+    .image-grid {
+      grid-template-columns: repeat(1, 1fr); 
+    }
+
+    .desktop-message {
+      display: none; 
+    }
+
+    .mobile-message {
+      display: block; 
+    }
+  }
+  
+
+  @media (min-width: 769px) {
+    .container {
+      flex-direction: row; 
+      justify-content: space-between;
+    }
+  }
+
+  
+
