@@ -20,36 +20,6 @@ body {
   .mobile-message {
     display: none; 
   }
-
-
-  
-  nav {
-    font-family: "Atma", serif;
-    font-weight: 400;
-    font-style: normal;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    flex-wrap: wrap;
-    font-size: 1rem;
-    padding: 10px 0;
-  }
-  
-  nav a {
-    color: red;
-    text-decoration: none;
-    margin: 0 15px;
-    font-weight: bold;
-    padding: 8px 16px;
-    transition: border 0.3s ease;
-  }
-  
-  nav a:hover {
-    border: 3px solid red;
-    border-radius: 10px;
-    background-color: red;
-    color: white;
-  }
   
   .container {
     display: flex;
@@ -142,12 +112,6 @@ body {
       background-color: white;
     }
   
-    nav {
-      flex-direction: row;
-      align-items: flex-start;
-      justify-content: space-around;
-      margin-left: 20px;
-    }
   
     .text-content {
       background-color: white;
